@@ -33,8 +33,7 @@ Libraries in use:
 2. Activate the [Random Number Generator](https://www.calculator.io/random-number-generator/ "Random Number Generator Homepage") plugin through the "Plugins" menu in WordPress.
 
 == Usage ==
-* Add the shortcode `[ci_random_number_generator]` to your page or post and configure default mortgage parameters.
-* If you are using widgets, just add the Random Number Generator to the sidebar through the `Appearance -> Widgets -> Random Number Generator` menu in WordPress.
+* Add the shortcode `[ci_random_number_generator]` to your page, post or sidebar.
 * Add the following code: `<?php display_ci_random_number_generator(); ?>` to your template where you would like the Random Number Generator to appear.
 
 == Screenshots ==
