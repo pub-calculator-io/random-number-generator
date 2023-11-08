@@ -1,4 +1,4 @@
-=== Random Number Generator by Calculator.iO ===
+# Random Number Generator by Calculator.iO
 Contributors: calculatorio
 Tags: 
 Requires at least: 5.0
@@ -9,11 +9,11 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Random number generators have a variety of uses beyond picking a number to determine a prize winner. Find out what situations are ideal for them and how they solve problems.
 
-== Description ==
+## Description
 
 Random number generators have a variety of uses beyond picking a number to determine a prize winner. Find out what situations are ideal for them and how they solve problems.
 
-__Shortcode__
+### Shortcode
 
 Use the Random Number Generator shortcode:
 
@@ -27,21 +27,21 @@ Libraries in use:
 5. https://air-datepicker.com/
 6. https://www.chartjs.org/
 
-== Installation ==
+## Installation
 
 1. Upload the /ci_random_number_generator/ folder to the /wp-content/plugins/ directory.
 2. Activate the [Random Number Generator](https://www.calculator.io/random-number-generator/ "Random Number Generator Homepage") plugin through the "Plugins" menu in WordPress.
 
-== Usage ==
+## Usage
 * Add the shortcode `[ci_random_number_generator]` to your page or post and configure default mortgage parameters.
 * If you are using widgets, just add the Random Number Generator to the sidebar through the `Appearance -> Widgets -> Random Number Generator` menu in WordPress.
 * Add the following code: `<?php display_ci_random_number_generator(); ?>` to your template where you would like the Random Number Generator to appear.
 
-== Screenshots ==
+## Screenshots
 1. The Random Number Generator Input Form.
 2. The Random Number Generator Calculation Results.
 
-== Changelog ==
+## Changelog
 
-= 1.0.0 =
+### 1.0.0
 * Initial release
