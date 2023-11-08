@@ -13,7 +13,7 @@ Random number generators have a variety of uses beyond picking a number to deter
 
 ## Usage
 * Add the shortcode `[ci_random_number_generator]` to your page, post or sidebar.
-* Add the following code: `<?php display_ci_random_number_generator(); ?>` to your template where you would like the Random Number Generator to appear.
+* Or add the following code: `<?php display_ci_random_number_generator(); ?>` to your template where you would like the Random Number Generator to appear.
 
 ## Libraries in Use
 1. https://mathjs.org/
