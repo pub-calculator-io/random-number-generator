@@ -13,6 +13,8 @@ Random number generators have a variety of uses beyond picking a number to deter
 
 Random number generators have a variety of uses beyond picking a number to determine a prize winner. Find out what situations are ideal for them and how they solve problems.
 
+[Random Number Generator Homepage](https://www.calculator.io/random-number-generator/ "Random Number Generator Homepage")
+
 __Shortcode__
 
 Use the Random Number Generator shortcode:
