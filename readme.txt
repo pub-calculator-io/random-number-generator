@@ -1,6 +1,6 @@
 === Random Number Generator by Calculator.iO ===
 Contributors: calculatorio
-Tags: 
+Tags: random number generator, online random number tool, generating random numbers, random number selection, number range randomization, custom random number, random digit generator, random integer tool, random sequence creation, random number generation method
 Requires at least: 5.0
 Tested up to: 6.4.0
 Stable tag: 1.0.0
