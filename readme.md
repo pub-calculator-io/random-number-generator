@@ -1,4 +1,4 @@
-# Random Number Generator WordPress Widget by [Calculator.iO](https://www.calculator.io/ "Calculator.iO Homepage")
+# Random Number Generator Widget for WordPress
 
 Random number generators have a variety of uses beyond picking a number to determine a prize winner. Find out what situations are ideal for them and how they solve problems.
 
