@@ -1,4 +1,4 @@
-=== Random Number Generator by Calculator.iO ===
+=== Random Number Generator ===
 Contributors: calculatorio
 Tags: random number generator, online random number tool, generating random numbers, random number selection, number range randomization, custom random number, random digit generator, random integer tool, random sequence creation, random number generation method
 Requires at least: 5.0
