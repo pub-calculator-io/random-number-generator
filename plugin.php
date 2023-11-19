@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Random Number Generator by www.calculator.io
+Plugin Name: CI Random number generator
 Plugin URI: https://www.calculator.io/random-number-generator/
 Description: Random number generators have a variety of uses beyond picking a number to determine a prize winner. Find out what situations are ideal for them and how they solve problems.
 Version: 1.0.0
