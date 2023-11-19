@@ -7,7 +7,7 @@ Random number generators have a variety of uses beyond picking a number to deter
 
 ## Installation
 
-1. [Download](https://github.com/pub-calculator-io/age-calculator/archive/refs/heads/master.zip) the ZIP file of this repository.
+1. [Download](https://github.com/pub-calculator-io/random-number-generator/archive/refs/heads/master.zip) the ZIP file of this repository.
 2. Upload the /random-number-generator-master/ folder to the /wp-content/plugins/ directory.
 3. Activate the [Random Number Generator](https://www.calculator.io/random-number-generator/ "Random Number Generator Homepage") plugin through the "Plugins" menu in WordPress.
 
