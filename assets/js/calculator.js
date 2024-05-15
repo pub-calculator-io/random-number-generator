@@ -2,7 +2,7 @@ function calculate() {
 	const minimum = input.get('minimum').integer().val();
 	const maximum = input.get('maximum').natural().gt('minimum').val();
 	const quantity = input.get('quantity').natural().val();
-	const decimals = input.get('decimals').integer().nonNegative().val();
+	const decimals = input.get('decimals').integer().gte(0).val();
 	const duplicates = input.get('duplicates').checked().raw();
 	let results = [];
 
@@ -31,5 +31,6 @@ function calculate() {
 }
 
 function generateRandomNumber(minimum, maximum, decimals) {
+	maximum = maximum + (10 / Math.pow(10, decimals + 1));
 	return (Math.random() * (maximum - minimum) + minimum).toFixed(decimals);
 }

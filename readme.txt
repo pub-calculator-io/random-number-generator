@@ -24,7 +24,6 @@ Add the following code to your template where you would like the Random Number G
 == Screenshots ==
 
 1. The Random Number Generator Input Form.
-2. The Random Number Generator Calculation Results.
 
 == Installation ==
 

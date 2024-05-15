@@ -3,7 +3,6 @@
 Random number generators have a variety of uses beyond picking a number to determine a prize winner. Find out what situations are ideal for them and how they solve problems.
 
 ![Random Number Generator Input Form](/assets/images/screenshot-1.png "Random Number Generator Input Form")
-![Random Number Generator Calculation Results](/assets/images/screenshot-2.png "Random Number Generator Calculation Results")
 
 ## Installation
 

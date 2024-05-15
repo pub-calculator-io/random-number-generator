@@ -28,7 +28,7 @@
             <div class="calculator-setting" id="calculator_form">
                 <div class="calculator-content col">
                 	<div class="input-wrapper row">
-                		<label class="input col   ">
+                		<label class="input col dice-roller,number-generator  ">
                 			<p class="input__title">Minimum</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="minimum" value="0"  />
@@ -42,7 +42,7 @@
                 					<span class="input-hints__hint input-hints__hint--comma">,</span>
                 					<button class="input-hints__hint" onclick="setValue('minimum', '100')">100</button>
                 			</div>
-                		</label>		<label class="input col   ">
+                		</label>		<label class="input col dice-roller,number-generator  ">
                 			<p class="input__title">Maximum</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="maximum" value="50"  />
@@ -58,7 +58,7 @@
                 			</div>
                 		</label>	</div>
                 	<div class="input-wrapper row">
-                		<label class="input col   ">
+                		<label class="input col dice-roller,number-generator  ">
                 			<p class="input__title">Quantity</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="quantity" value="20"  />
@@ -72,7 +72,7 @@
                 					<span class="input-hints__hint input-hints__hint--comma">,</span>
                 					<button class="input-hints__hint" onclick="setValue('quantity', '100')">100</button>
                 			</div>
-                		</label>		<label class="input col   ">
+                		</label>		<label class="input col dice-roller,number-generator  ">
                 			<p class="input__title">Decimals</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="decimals" value="0"  />
@@ -89,7 +89,7 @@
                 		</label>	</div>
                 	<div class="input-wrapper row">
                 		<label class="checkbox">
-                			<input type="checkbox" class="checkbox__input" id="duplicates"   />
+                			<input type="checkbox" class="checkbox__input" id="duplicates"  onchange="relatedToggle(event, 'duplicates')" />
                 			<span class="checkbox__box"></span>
                 				<span class="checkbox__title">Allow Duplicates</span>
                 		</label>	</div>
@@ -100,13 +100,15 @@
                 
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculate(this)">Generate</button>
+                	<button class="button button--primary ml-auto" onclick="calculate(this); animateElements();" data-action="calculate" id="action-button">Generate</button>
                 </div>
                 
                 
                 
                 
-                	<script type="text/javascript" src="./assets/js/calculator.js"></script>
+                
+                
+                	<script type="text/javascript" src="./assets/js/calculator.js" defer></script>
             </div>
         </div>
     </div>
@@ -121,11 +123,10 @@
         </svg>
         		<p class="calculator-error__title">There was an error with your calculation.</p>
         	</div>
-        	<div class="col" id="error-list">
-        	</div>
+        	<div class="col" id="error-list"></div>
         </div>        <span id="calculator_result"><div class="calculator-result col">
 	<p class="table-cell table-cell--dark table-cell--only-title">Random Numbers</p>
-	<p class="table-cell table-cell--only" id="result">39, 67, 34, 23, 58, 21, 45, 87, 12, 98, 12, 14, 16, 54, 90, 91, 12, 32, 52, 64, 83, 74, 28</p>
+	<p class="table-cell table-cell--only animate" id="result">39, 67, 34, 23, 58, 21, 45, 87, 12, 98, 12, 14, 16, 54, 90, 91, 12, 32, 52, 64, 83, 74, 28</p>
 </div>
 </span>
     </div>
